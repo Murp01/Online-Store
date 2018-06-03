@@ -3,13 +3,13 @@ package practicePackage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class PracticeExcercise {
+public class PracticeExcercise01 {
 
 	public static void main(String[] args) {
 		
 		String url = "http://store.demoqa.com/";
 	
-		//1. Launch a new Firefox driver
+		//1. Launch a new Fire fox driver
 		WebDriver driver = new FirefoxDriver();
 		
 		//2. Open Store.DemoQA.com
@@ -44,7 +44,7 @@ public class PracticeExcercise {
 		System.out.println("The length of the page source is " + pageSourceLength);
 		
 		//8. Close Browser
-		driver.quit();
+		driver.close();
 
 		
 		
