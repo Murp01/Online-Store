@@ -3,7 +3,7 @@ package practicePackage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class PracticeExcercise01 {
+public class PracticeExercise01 {
 
 	public static void main(String[] args) {
 		
